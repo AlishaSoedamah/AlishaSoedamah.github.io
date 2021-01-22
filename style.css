@@ -1,0 +1,89 @@
+ body{
+    background-color: coral;
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(253, 59, 0);
+  }
+    
+li {
+    float: left;
+  }
+    
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 100px;
+    text-decoration: none;
+  }
+    
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgba(255, 208, 0, 0.315);
+  }
+.active {
+  background-color:  rgb(250, 193, 4);
+}
+
+/*IMG of me center*/
+#pfpimg {
+  position: absolute;
+  border-radius: 25px;
+  margin-left: 100px;
+  margin-top: 10px;
+  margin-right: 500px;
+  }
+
+.red {
+  text-decoration-color: red;
+}
+
+/*center head text*/
+.center {
+  text-align: center;
+}
+
+.imgprojects {
+  position: absolute;
+  border-radius: 25px;
+  margin-left: 970px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.imgprojectstwo {
+  position: absolute;
+  border-radius: 25px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+.imgprojectsthree {
+  position: absolute;
+  border-radius: 25px;
+  margin-left: 560px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+#coolsidetext{
+  margin-left: 1000px;
+  margin-right: 100px;
+  margin-top: 190px;
+  text-align: left;
+}
+
+.bigBoiefont{
+    font-size: 20px;
+}
+
+.interests {
+  margin-left: 340px;
+  margin-right: 100px;
+}

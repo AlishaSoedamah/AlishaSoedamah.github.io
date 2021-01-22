@@ -1,0 +1,156 @@
+div{
+    /* Zorgt ervoor dat de border aan de binnenkant van alle divs wordt geplaats en niet wordt opgeteld bij de breedte/hoogte van het element*/
+    /* hierdoor voorkom je dat je als je het element een bepaalde breedte/hoogte geeft rekening moet houden met de border breedte */
+    box-sizing: border-box;
+    /* voorkomt dat elementen die als display waarde inline-block hebben een kleine ruimte tussen de elementen tonen */
+    font-size: 0px;
+}
+
+/* Container div waar de hele mondriaan in zit */
+#container{
+    width: 800px;
+    height: 800px;
+    border: 1px solid black;
+}
+
+/* CSS class voor achtergrond die niet zichtbaar is voor het eindresultaat */
+.bg-temp{
+    background-image: repeating-linear-gradient(-45deg, grey,white);
+}
+
+.horizontaal{
+    display: inline-block;
+}
+
+/* CSS classes die de borders regelen */
+.border-boven{
+    border-top: 15px solid black;
+}
+
+.border-links{
+    border-left: 15px solid black;
+}
+
+.border-rechts{
+    border-right: 15px solid black;
+}
+
+.border-beneden{
+    border-bottom: 15px solid black;
+}
+
+/* CSS Classes die de achtergrond kleur regelen */
+.bg-geel{
+    background-color: yellow;
+}
+
+.bg-blauw{
+    background-color: cornflowerblue;
+}
+
+.bg-rood{
+    background-color: red;
+}
+
+.bg-wit{
+    background-color: white;
+}
+
+
+/* Linkerkant */
+#links{
+    width: 20%;
+    height: 100%;
+}
+
+#links-boven{
+    width: 101%;
+    height: 25%;
+}
+#links-midden{
+    width: 100%;
+    height: 50%;
+}
+#links-beneden{
+    width: 101%;
+    height: 25%;
+}
+
+ /* Rechterkant */
+#rechts{
+    width: 80%;
+    height: 100%;
+}
+
+/* Rechtskant eerste rij */
+#rechts-rij-een{
+    height: 25%;
+    width: 100%;
+}
+
+    #rechts-rij-een-links{
+        height: 101%;
+        width: 60%;
+    }
+
+    #rechts-rij-een-rechts{
+        height: 100%;
+        width: 40%;
+    }
+
+    .square {
+        height: 175px;
+        width: 200px;
+        background-color: #fff;
+        position: absolute;
+        left: 607.5px;
+        top: 209px;
+    }
+
+    #rechts-rij-twee-drie{
+        height: 148px;
+        width: 200px;
+        position: absolute;
+        left: 607.5px;
+        top: 398px;
+    }
+
+    #rechts-rij-drie-een {
+       height: 148px;
+        width: 220px;
+        position: absolute;
+        left: 237.5px;
+        top: 398px;
+    }
+/* Rechtskant tweede rij */
+#rechts-rij-twee{
+    height: 22%;
+    width: 100%;
+}
+
+/* Rechtskant derde rij */
+#rechts-rij-drie{
+    height: 22%;
+    width: 100%;
+}
+
+/* Rechtskant vierde rij */
+#rechts-rij-vier{
+    height: 31%;
+    width: 100%;
+}
+#rechts-rij-drie-twee{
+    height: 247px;
+    width: 179px;
+    background-color: #fff;
+    position: absolute;
+    left: 442px;
+    top: 560px;
+}
+#rechts-rij-vier-twee{
+    height: 148px;
+    width: 187.5px;
+    position: absolute;
+    left: 620px;
+    top: 560px;
+}
